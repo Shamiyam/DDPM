@@ -10,9 +10,9 @@ from tqdm import tqdm
 import math
 import os
 
-# For checkpointing with Google Drive
-from google.colab import drive
-drive.mount('/content/drive')
+# # For checkpointing with Google Drive
+# from google.colab import drive
+# drive.mount('/content/drive')
 
 # --- Hyperparameters and Setup ---
 T = 1000
